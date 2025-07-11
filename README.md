@@ -14,6 +14,10 @@ Mini Joy supports both raw PCAP files and preprocessed CSV datasets, enabling fl
 - Streamlit GUI for interactive file upload, model selection, and result visualization
 - Export of flagged anomalies in JSON format for further analysis
 
+## File Structure
+<img width="340" height="517" alt="image" src="https://github.com/user-attachments/assets/3530ffb4-43d6-4234-95b3-d2d7f4b293bd" />
+
+
 ## Installation
 
 1. Clone the repository:
@@ -49,7 +53,18 @@ streamlit run app.py
 </ul>
 
 ### Using the Command Line
+```bash
+python main.py --input path/to/file.pcap --model isolation
+```
 
+## Dataset
+This project uses the CICIDS2017 dataset developed by the Canadian Institute for Cybersecurity. It includes realistic network traffic with labeled attacks such as DoS, DDoS, Brute Force, and Port Scans.
+
+Learn more: (https://www.unb.ca/cic/datasets/ids-2017.html)
+CSV version: (https://www.kaggle.com/datasets/ericanacletoribeiro/cicids2017-cleaned-and-preprocessed)
+
+## Acknowledgments
+We acknowledge the mentors, institutional heads, and industrial mentors for their guidance and support. We thank Intel Corporation for providing us with such an opportunity.
 
 
 
