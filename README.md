@@ -60,7 +60,7 @@ python main.py --input path/to/file.pcap --model isolation
 ## Dataset
 This project uses the CICIDS2017 dataset developed by the Canadian Institute for Cybersecurity. It includes realistic network traffic with labeled attacks such as DoS, DDoS, Brute Force, and Port Scans.
 
-Learn more: (https://www.unb.ca/cic/datasets/ids-2017.html)
+Learn more: (https://www.unb.ca/cic/datasets/ids-2017.html) <br>
 CSV version: (https://www.kaggle.com/datasets/ericanacletoribeiro/cicids2017-cleaned-and-preprocessed)
 
 ## Acknowledgments
